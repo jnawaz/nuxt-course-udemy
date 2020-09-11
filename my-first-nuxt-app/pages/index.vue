@@ -1,6 +1,9 @@
 <template>
   <div class="container">
-    <div>
+    <section>
+      <nuxt-link to="/users">Users</nuxt-link>
+    </section>
+    <!-- <div>
       <Logo />
       <h1 class="title">
         my-first-nuxt-app
@@ -23,7 +26,7 @@
           GitHub
         </a>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
