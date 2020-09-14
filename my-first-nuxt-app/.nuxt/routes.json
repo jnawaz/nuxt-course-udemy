@@ -1,0 +1,23 @@
+[
+  {
+    "name": "users",
+    "path": "/users",
+    "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/users/index.vue",
+    "chunkName": "pages/users/index",
+    "_name": "_44209384"
+  },
+  {
+    "name": "users-id",
+    "path": "/users/:id",
+    "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/users/_id/index.vue",
+    "chunkName": "pages/users/_id/index",
+    "_name": "_6c876722"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_0a34478b"
+  }
+]
