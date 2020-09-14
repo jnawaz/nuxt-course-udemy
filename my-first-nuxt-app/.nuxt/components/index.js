@@ -1,3 +1,3 @@
-export { default as Logo } from '../../components/Logo.vue'
+export { default as PostPreview } from '../../components/Posts/PostPreview.vue'
 
-export const LazyLogo = import('../../components/Logo.vue' /* webpackChunkName: "components/Logo" */).then(c => c.default || c)
+export const LazyPostPreview = import('../../components/Posts/PostPreview.vue' /* webpackChunkName: "components/Posts/PostPreview" */).then(c => c.default || c)
