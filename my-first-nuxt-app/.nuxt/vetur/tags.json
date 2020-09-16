@@ -1,10 +1,4 @@
 {
-  "PostPreview": {
-    "description": "Auto imported from components/Posts/PostPreview.vue"
-  },
-  "LazyPostPreview": {
-    "description": "Auto imported from components/Posts/PostPreview.vue"
-  },
   "TheHeader": {
     "description": "Auto imported from components/Navigation/TheHeader.vue"
   },
@@ -22,5 +16,17 @@
   },
   "LazyTheSidenav": {
     "description": "Auto imported from components/Navigation/TheSidenav.vue"
+  },
+  "PostList": {
+    "description": "Auto imported from components/Posts/PostList.vue"
+  },
+  "LazyPostList": {
+    "description": "Auto imported from components/Posts/PostList.vue"
+  },
+  "PostPreview": {
+    "description": "Auto imported from components/Posts/PostPreview.vue"
+  },
+  "LazyPostPreview": {
+    "description": "Auto imported from components/Posts/PostPreview.vue"
   }
 }
