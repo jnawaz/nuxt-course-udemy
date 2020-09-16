@@ -7,6 +7,13 @@
     "_name": "_3c59c6c9"
   },
   {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_495f5c0b"
+  },
+  {
     "name": "posts",
     "path": "/posts",
     "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/posts/index.vue",
@@ -26,6 +33,27 @@
     "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/users/index.vue",
     "chunkName": "pages/users/index",
     "_name": "_44209384"
+  },
+  {
+    "name": "admin-auth",
+    "path": "/admin/auth",
+    "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/admin/auth/index.vue",
+    "chunkName": "pages/admin/auth/index",
+    "_name": "_424175c2"
+  },
+  {
+    "name": "admin-new-post",
+    "path": "/admin/new-post",
+    "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/admin/new-post/index.vue",
+    "chunkName": "pages/admin/new-post/index",
+    "_name": "_2e9e59f2"
+  },
+  {
+    "name": "admin-postId",
+    "path": "/admin/:postId",
+    "component": "/Users/jamil/Development/personal/nuxt-course-udemy/my-first-nuxt-app/pages/admin/_postId/index.vue",
+    "chunkName": "pages/admin/_postId/index",
+    "_name": "_6697f636"
   },
   {
     "name": "posts-id",

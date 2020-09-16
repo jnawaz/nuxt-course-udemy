@@ -28,5 +28,17 @@
   },
   "LazyPostPreview": {
     "description": "Auto imported from components/Posts/PostPreview.vue"
+  },
+  "AppButton": {
+    "description": "Auto imported from components/UI/AppButton.vue"
+  },
+  "LazyAppButton": {
+    "description": "Auto imported from components/UI/AppButton.vue"
+  },
+  "AppControlInput": {
+    "description": "Auto imported from components/UI/AppControlInput.vue"
+  },
+  "LazyAppControlInput": {
+    "description": "Auto imported from components/UI/AppControlInput.vue"
   }
 }
