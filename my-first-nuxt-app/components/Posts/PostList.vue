@@ -2,22 +2,12 @@
   <div class="posts-page">
     <section class="posts">
       <PostPreview
-        id="1"
-        thumbnail="https://static.pexels.com/photos/270348/pexels-photo-"
-        title= "Hello there!"
-        previewText="This is my first post"
-        />
-      <PostPreview
-        id="1"
-        thumbnail=""
-        title= "Hello there!"
-        previewText="This is my first post"
-        />
-      <PostPreview
-        id="1"
-        thumbnail=""
-        title= "Hello there!"
-        previewText="This is my first post"
+        v-for="post in posts"
+        :key="post.id"
+        :id="post.id"
+        :thumbnail="post.thumbnail"
+        :title="post.title"
+        :previewText="post.previewText"
         />
     </section>
   </div>
@@ -28,6 +18,16 @@ import PostPreview from '@/components/Posts/PostPreview'
 export default {
   components: {
     PostPreview
+  },
+  props: {
+    isAdmin: {
+      type: Boolean,
+      default: false
+    },
+    posts: {
+      type: Array,
+      required: true
+    }
   }
 }
 </script>
