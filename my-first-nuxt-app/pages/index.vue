@@ -15,6 +15,7 @@ export default {
     PostList: PostList
   },
   asyncData(context, callback) { // executed on the server and waits for task to finish and only calls in pages
+  // asyncData runs first on the server and then subsequently in the client.
     setTimeout(() => {
       callback(null, {
 loadedPosts: [
