@@ -18,6 +18,11 @@ export default {
     }).catch(e => {
       context.error(new Error())
     })
+  },
+  computed: {
+    loadedPosts() {
+      return this.$store.getters.loadedPosts
+    }
   }
 }
 </script>

@@ -11,6 +11,7 @@ const createStore = () => {
       }
     },
     actions: {
+      // nuxtServerInit() to load data on instantiation
       setPosts(vuexContext) {
         vuexContext.commit('setPosts', posts)
       }
