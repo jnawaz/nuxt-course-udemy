@@ -10,11 +10,11 @@ export default {
   components: {
     PostList
   },
-  asyncData(context) {
+  fetch(context) {
     return new Promise((resolve, reject) => {
       // resolve = success, reject = error
     }).then(data => {
-        return data
+        context.store.commit('setPosts', data.loadedPosts)
     }).catch(e => {
       context.error(new Error())
     })
